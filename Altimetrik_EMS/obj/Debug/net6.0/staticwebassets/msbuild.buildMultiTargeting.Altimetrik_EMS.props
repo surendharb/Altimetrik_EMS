@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Altimetrik_EMS.props" />
+</Project>

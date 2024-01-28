@@ -1,0 +1,101 @@
+﻿@{
+    ViewData["Title"] = "Overview";
+}
+@{
+    Layout = "_LayoutVoter";
+}
+
+
+<script src="../lib/jquery/dist/jquery.min.js"></script>
+<script src="../js/Overview.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        Load_Voters_Overview_Profile_Details();
+        Load_Voters_Overview_Pool_Check_Details();
+        Load_Voters_Overview_Pool_Details();
+    });
+
+
+</script>
+<div class="pagetitle">
+    <h1>Voters</h1>
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active">Overview</li>
+        </ol>
+    </nav>
+</div><!-- End Page Title -->
+
+<section class="section dashboard">
+    <div class="row">
+
+        <!-- Left side columns -->
+        <div class="col-lg-8">
+            <div class="row">
+                 
+                <!-- Recent Sales -->
+                <div class="col-12">
+                    <div class="card recent-sales overflow-auto">
+
+                        <div class="card-body">
+                            <h5 class="card-title">Voting Poll | <span id="spanConstituency"></span></h5>
+                             
+                            <fieldset class="row mb-3"> 
+                                <div class="col-sm-10">
+                                    <div id="rbPooling">
+
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <br/>
+                            <button type="button" class="btn btn-primary" style="float: right;" id="btnCreate" onclick="Pooling_Add()">Vote</button>
+                        </div>
+
+                    </div>
+                </div><!-- End Recent Sales -->
+                 
+            </div>
+        </div><!-- End Left side columns -->
+        <!-- Right side columns -->
+        <div class="col-lg-4">
+
+            <!-- Recent Activity -->
+            <div class="card">                
+
+                <div class="card-body">
+                    <h5 class="card-title">Your Profile</h5>
+                    <br />
+                    <div class="col-12">
+                        <label for="yourName" class="form-label">Your First Name*</label>
+                        <input type="text" name="name" class="form-control" id="addFirstName" disabled>
+                    </div>
+                    <br />
+
+                    <div class="col-12">
+                        <label for="yourLastName" class="form-label">Your Last Name*</label>
+                        <input type="email" name="email" class="form-control" id="addLastName" disabled>
+                    </div>
+                    <br />
+                    <div class="col-12">
+                        <label for="yourUsername" class="form-label">Username*</label>
+                        <div class="input-group has-validation">
+                            <input type="text" name="username" class="form-control" disabled id="addUsername" required onfocusout="Add_Voter_Username_Validation()">
+                        </div>
+                    </div>
+                    <br />
+                    <div class="col-12">
+                        <label for="yourEmail" class="form-label">Address</label>
+                        <textarea type="text" id="addAddress" class="form-control" disabled></textarea>
+                    </div>
+
+                </div>
+            </div><!-- End Recent Activity -->
+
+
+        </div><!-- End Right side columns -->
+
+    </div>
+</section>

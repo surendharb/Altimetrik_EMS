@@ -1,0 +1,103 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Altimetrik_EMS
+build_property.RootNamespace = Altimetrik_EMS
+build_property.ProjectDir = D:\Altimetrik\Altimetrik_EMS\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Altimetrik\Altimetrik_EMS
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/ECIOfficials/Candidates.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUNJT2ZmaWNpYWxzXENhbmRpZGF0ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/ECIOfficials/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUNJT2ZmaWNpYWxzXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/ECIOfficials/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUNJT2ZmaWNpYWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/ECIOfficials/MPSeats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUNJT2ZmaWNpYWxzXE1QU2VhdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/ECIOfficials/Party.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUNJT2ZmaWNpYWxzXFBhcnR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/ECIOfficials/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUNJT2ZmaWNpYWxzXFJlc3VsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/ECIOfficials/Symbols.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUNJT2ZmaWNpYWxzXFN5bWJvbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/ECIOfficials/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUNJT2ZmaWNpYWxzXFRlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/ECIOfficials/Voters.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRUNJT2ZmaWNpYWxzXFZvdGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/Login/VotersRegistration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVm90ZXJzUmVnaXN0cmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/Shared/_LayoutOfficial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRPZmZpY2lhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/Shared/_LayoutVoter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRWb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/Voters/Overview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90ZXJzXE92ZXJ2aWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Altimetrik/Altimetrik_EMS/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-j70gc3lyuj

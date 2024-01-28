@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Candidates";
+}
+@{
+    Layout = "_LayoutOfficial";
+}
+
+
+<script src="../lib/jquery/dist/jquery.min.js"></script>
+<script src="../js/Result.js"></script>
+
+<link href="../vendor/datatable/jquery.datatables.min.css" rel="stylesheet" />
+<script src="../vendor/datatable/jquery.datatables.min.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function () { 
+        Load_Candidates_Constituency_DropDown_Details();
+    });
+
+
+</script>
+<div class="pagetitle">
+    <h1>Official</h1>
+    <nav>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active">Result</li>
+        </ol>
+    </nav>
+</div><!-- End Page Title -->
+
+<section class="section">
+    <div class="row">
+        <div class="col-lg-12">
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Candidates
+                    </h5>
+                      
+                    <div class="row">
+                        <div class="col-md-4">Select Constituency</div>
+                        <div class="col-md-8">
+                            <select id="ddlConstituency" class="form-control" onchange="Load_Result_Details();">
+                            </select>
+                        </div>
+                    </div>
+                    <br/>
+                    <!-- Table with stripped rows -->
+                    <table id="tblResult" class="display" style="width:100%">  
+                        <thead>
+                            <tr> 
+                                <th>Candidate Name</th>
+                                <th>Party Name</th>
+                                <th>Party Symbol</th>
+                                <th>Votes</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbResult">
+                        </tbody>
+                    </table>
+                    <!-- End Table with stripped rows -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
